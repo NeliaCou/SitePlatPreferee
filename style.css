@@ -1,0 +1,92 @@
+body {
+  text-align: center;
+  background-color: #F6D5FF;
+}
+
+h1 {
+  color: #9A7DE1;
+
+}
+
+h2 {
+  color: #BD2D77;
+}
+
+p {
+  color: #3A628F;
+}
+
+b {
+color: #A30015;
+}
+
+.intro_ramen {
+  color: #062938;
+  text-align: center;
+  background-color: white;
+  border-radius: 50px;
+  width: 60vw;
+  margin: auto;
+  padding: 20px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+img {
+  width: 20vw;
+  border-radius: 5px;
+  object-fit: contain; 
+}
+
+
+.basdepage {
+  color: white;
+  font-weight: bold;
+}
+
+.ingredient{
+  text-align: left;
+}
+
+
+
+.recette{
+  background-color: white;
+  padding-bottom: 2px;
+}
+
+.grid-realisations {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 300px 300px 300px;
+  gap: 15px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+
+.lien-conteneur-ramen {
+  position: relative;
+}
+.realisation-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: none;
+}
+
+.lien-conteneur-ramen:hover .realisation-hover {
+  display: flex;
+}
